@@ -18,6 +18,7 @@ struct ContentView: View {
             } else {
                 Text("")
                     .padding()
+                    .font(.title)
             }
             
             Button(action:  {
